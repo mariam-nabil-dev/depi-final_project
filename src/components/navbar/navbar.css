@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 .search-box {
   box-shadow: none;
   outline: none !important;
@@ -9,11 +10,32 @@
   -moz-border-radius: 0;
   -ms-border-radius: 0;
   -o-border-radius: 0;
+=======
+
+
+.theme-toggle {
+  color: var(--text-primary) !important;
+}
+
+.navbar-link {
+  position: relative;
+}
+
+.navbar-link::before {
+  content: "";
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: var(--primary-color);
+>>>>>>> Stashed changes
   transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   -ms-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
+<<<<<<< Updated upstream
   &:focus {
     box-shadow: none;
     border: none;
@@ -21,3 +43,10 @@
     border-bottom: 1px solid var(--primary-color);
   }
 }
+=======
+}
+
+.navbar-link:hover::before, .navbar-link.active::before {
+  width: 100%;
+}
+>>>>>>> Stashed changes

@@ -1,4 +1,5 @@
 :root {
+<<<<<<< Updated upstream
   --primary-color: #5e503f;
   --secondary-color: #eae0d5;
   --dark-black: #0a0908;
@@ -43,4 +44,36 @@
 .nav-link:hover, .nav-link.active {
   background-color: var(--primary-color) !important;
   color: var(--white) !important;
+=======
+  --primary-color: #5e503f !important;
+  --secondary-color: #eae0d5 !important;
+  --white-color: #ffffff !important;
+  --dark-color: #0a0908 !important;
+  --heading-font: "Montserrat", serif !important;
+  --paragraph-font: "Lora", serif !important;
+}
+
+.bg-primary {
+  background-color: var(--primary-color);
+}
+
+.bg-secondary {
+  background-color: var(--secondary-color);
+}
+
+.text-primary {
+  color: var(--primary-color);
+}
+
+.text-secondary {
+  color: var(--secondary-color);
+}
+
+.font-heading {
+  font-family: var(--heading-font);
+}
+
+.font-paragraph {
+  font-family: var(--paragraph-font);
+>>>>>>> Stashed changes
 }
