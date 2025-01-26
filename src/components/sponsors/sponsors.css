@@ -1,0 +1,55 @@
+.sponsors-section {
+  background-color: #f8f9fa;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.swiper-container {
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+
+.sponsor-img {
+  width: 130px;
+  height: auto;
+  transition: filter 0.3s ease, transform 0.3s ease;
+  display: block;
+  margin: 0 auto;
+}
+
+.sponsor-img:hover {
+  filter: brightness(1.2);
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  display: none;
+}
+
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.5s ease-in-out;
+}
+
+.sponsor-img:hover {
+  filter: brightness(1.2) drop-shadow(0 0 8px rgba(255, 255, 255, 0.8));
+}
+
+.sponsor-img:hover {
+  outline: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+.sponsor-img {
+  position: relative;
+  z-index: 1;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.sponsor-img:hover {
+  z-index: 2;
+}

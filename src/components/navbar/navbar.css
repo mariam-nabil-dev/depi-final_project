@@ -1,16 +1,3 @@
-<<<<<<< Updated upstream
-.search-box {
-  box-shadow: none;
-  outline: none !important;
-  background-color: transparent !important;
-  border: none;
-  border-bottom: 1px solid var(--primary-color);
-  border-radius: 0;
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
-  -ms-border-radius: 0;
-  -o-border-radius: 0;
-=======
 
 
 .theme-toggle {
@@ -29,24 +16,13 @@
   width: 0;
   height: 2px;
   background-color: var(--primary-color);
->>>>>>> Stashed changes
   transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   -ms-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
-<<<<<<< Updated upstream
-  &:focus {
-    box-shadow: none;
-    border: none;
-    outline: none !important;
-    border-bottom: 1px solid var(--primary-color);
-  }
-}
-=======
 }
 
 .navbar-link:hover::before, .navbar-link.active::before {
   width: 100%;
 }
->>>>>>> Stashed changes

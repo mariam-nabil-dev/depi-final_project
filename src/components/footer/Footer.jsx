@@ -1,14 +1,3 @@
-<<<<<<< Updated upstream
-import React from 'react'
-
-const Footer = () => {
-  return (
-    <div>Footer</div>
-  )
-}
-
-export default Footer
-=======
 import { Container, Nav } from "react-bootstrap";
 import { FaFacebook, FaGithub, FaInstagram, FaTwitter } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
@@ -71,4 +60,3 @@ const Footer = () => {
 };
 
 export default Footer;
->>>>>>> Stashed changes
