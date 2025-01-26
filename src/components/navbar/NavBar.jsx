@@ -63,7 +63,7 @@ const NavBar = () => {
                   key={index}
                   as={NavLink}
                   to={link.path}
-                  className="navbar-link"
+                  className="navbar-link text-center"
                 >
                   {link.name}
                 </Nav.Link>
