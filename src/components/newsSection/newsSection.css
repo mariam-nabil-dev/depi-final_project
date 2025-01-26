@@ -1,0 +1,32 @@
+.news h2 {
+  font-size: 48px;
+  font-weight: 800;
+  margin-bottom: 25px;
+}
+
+.news .card {
+  border: none;
+}
+
+.news h2.mb-5 span {
+  color: #eae0d5;
+}
+
+.news .card-img-top {
+  border-radius: 50px;
+  background-position: center;
+  background-size: cover;
+}
+
+.news .card-body .card-title {
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 50px;
+  margin-top: 15px;
+}
+
+.news .card-body .card-text {
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 25px;
+}

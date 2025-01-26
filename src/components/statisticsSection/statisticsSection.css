@@ -1,0 +1,65 @@
+.statistics {
+  background-color: #5e503f;
+  padding: 100px;
+  color: white;
+}
+
+.statistics .section-text h2 {
+  font-size: 48px;
+  font-weight: 800;
+  margin-bottom: 25px;
+}
+
+.statistics .section-text h2.mb-7 span {
+  font-size: 48px;
+  font-weight: 800;
+  margin-bottom: 25px;
+  color: #eae0d5;
+}
+
+.statistics .section-text p {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 25px;
+  font-family: Laro;
+}
+
+.statistics .section-text span {
+  font-size: 1.1rem;
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+
+.section-items {
+  margin: 5rem auto;
+}
+
+.counter-item {
+  padding: 20px;
+  background-color: white;
+  border-radius: 12px;
+  text-align: start;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 1rem;
+  color: #5e503f;
+}
+
+.counter-value {
+  font-size: 48px;
+  font-weight: 800;
+  display: inline;
+  margin-bottom: 10px;
+}
+
+.counter-item span {
+  font-size: 48px;
+  font-weight: 800;
+  margin-left: 2px;
+  color: #5e503f;
+}
+
+.counter-item p {
+  font-size: 20px;
+  font-weight: 500;
+  color: #5e503f;
+}
