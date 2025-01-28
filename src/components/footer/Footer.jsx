@@ -1,10 +1,13 @@
 import { Container, Nav } from "react-bootstrap";
 import { FaFacebook, FaGithub, FaInstagram, FaTwitter } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
+import FooterContent from "./FooterContent";
 
 const Footer = () => {
   return (
     <Container>
+      <FooterContent />
+
       <footer className="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
         {/* Logo or Brand Link */}
         <a
@@ -25,7 +28,11 @@ const Footer = () => {
             { name: "Contact", path: "/contact" },
           ].map((link, index) => (
             <Nav.Item key={index}>
-              <Nav.Link as={NavLink} to={link.path} className="px-2 text-body-secondary">
+              <Nav.Link
+                as={NavLink}
+                to={link.path}
+                className="px-2 text-body-secondary"
+              >
                 {link.name}
               </Nav.Link>
             </Nav.Item>
