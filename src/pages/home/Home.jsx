@@ -1,5 +1,4 @@
 import TravelTipsForm from "../../components/TravelTipsForm/TravelTipsForm";
-
 const Home = () => {
   return (
     <>
