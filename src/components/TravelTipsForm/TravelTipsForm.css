@@ -1,0 +1,57 @@
+.bg-accent {
+  background-color: #f7f2ee;
+  .form-control,
+  .form-select,
+  .btn {
+    border-radius: 0 !important;
+    border: 0 !important;
+    padding: 1rem;
+    box-shadow: none !important;
+    font-size: smaller;
+    color: #777;
+  }
+}
+.travel-tips {
+  min-height: 550px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.travel-tips::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background: url("src/assets/img/h4-slider-img-1.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 100px 0;
+}
+.feature-img {
+  min-width: 450px;
+  position: relative;
+  .slide-2 {
+    margin-left: -75px;
+  }
+  .slide-1 {
+    z-index: 99;
+  }
+  img {
+    width: 50%;
+  }
+}
+
+.subscribe {
+  h2 {
+    font-size: 2.5rem;
+    font-weight: 900;
+    letter-spacing: 3px;
+  }
+  p {
+    font-size: 1.1rem;
+    margin: 0;
+  }
+}
