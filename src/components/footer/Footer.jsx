@@ -1,13 +1,10 @@
 import { Container, Nav } from "react-bootstrap";
 import { FaFacebook, FaGithub, FaInstagram, FaTwitter } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
-import FooterContent from "./FooterContent";
 
 const Footer = () => {
   return (
     <Container>
-      <FooterContent />
-
       <footer className="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
         {/* Logo or Brand Link */}
         <a
