@@ -2,7 +2,7 @@ import NewsSection from "../../components/newsSection/NewsSection";
 import Sponsors from "../../components/sponsors/Sponsors";
 import StatisticsSection from "../../components/statisticsSection/StatisticsSection";
 import TravelTipsForm from "../../components/TravelTipsForm/TravelTipsForm";
-import FooterContent from "../../components/footer/FooterContent";
+import WhereWeAre from "../../components/where-we-are-component/WhereWeAre";
 
 const About = () => {
   return (
@@ -11,7 +11,7 @@ const About = () => {
       <NewsSection />
       <Sponsors />
       <TravelTipsForm />
-      <FooterContent />
+      <WhereWeAre />
     </>
   );
 };

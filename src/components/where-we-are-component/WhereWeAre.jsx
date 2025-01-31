@@ -1,4 +1,4 @@
-import "./footer.css";
+import "./where-we-are.css";
 import {
   FaInstagram,
   FaFacebookF,
@@ -8,7 +8,7 @@ import {
   FaRss,
 } from "react-icons/fa";
 
-const FooterContent = () => {
+const WhereWeAre = () => {
   return (
     <footer className="container py-5 footer-content">
       <div className="row text-center">
@@ -16,7 +16,6 @@ const FooterContent = () => {
         <div className="col-md-4 mb-4">
 
           <h6 className="section-title">Where we are now</h6>
-          <h6 className="footer-title">Where we are now</h6>
 
           <img
             src="src/assets/img/footer-map-img.png"
@@ -28,7 +27,6 @@ const FooterContent = () => {
         {/* Follow Us */}
         <div className="col-md-4 mb-4">
           <h6 className="section-title">Follow us</h6>
-          <h6 className="footer-title">Follow us</h6>
           <div className="d-flex justify-content-center gap-3 my-3">
             <a href="#" className="text-dark">
               <FaInstagram size={24} />
@@ -53,7 +51,6 @@ const FooterContent = () => {
         {/* Newsletter */}
         <div className="col-md-4 mb-4">
           <h6 className="section-title">Newsletter</h6>
-          <h6 className="footer-title">Newsletter</h6>
           <form className="d-flex flex-column align-items-center my-3">
             <input
               type="email"
@@ -71,4 +68,4 @@ const FooterContent = () => {
   );
 };
 
-export default FooterContent;
+export default WhereWeAre;
