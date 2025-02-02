@@ -72,7 +72,7 @@ const TravelTipsForm = () => {
                 <span className="text-danger fst-normal">
                   actionable steps you can use to travel anywhere
                 </span>{" "}
-                — no matter your income or where you're from!
+                — no matter your income or where you&apos;re from!
               </p>
             </div>
             <form
