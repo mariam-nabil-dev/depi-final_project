@@ -108,17 +108,17 @@ const TrendingNow = () => {
 
         <Swiper
           modules={[Autoplay, Pagination, Navigation]}
-          slidesPerView={1}
+          slidesPerView={3}
           spaceBetween={30}
           grabCursor={true}
           autoplay={{ delay: 3000, disableOnInteraction: false }}
           pagination={{ clickable: true }}
           navigation
-          // breakpoints={{
-          //   320: { slidesPerView: 1, spaceBetween: 20 },
-          //   768: { slidesPerView: 2, spaceBetween: 30 },
-          //   1024: { slidesPerView: 3, spaceBetween: 40 },
-          // }}
+          breakpoints={{
+            320: { slidesPerView: 1, spaceBetween: 20 },
+            768: { slidesPerView: 2, spaceBetween: 30 },
+            1024: { slidesPerView: 3, spaceBetween: 40 },
+          }}
         >
           {blogPosts.map((post) => (
             <SwiperSlide key={post.id}>

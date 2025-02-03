@@ -1,4 +1,3 @@
-import React from "react";
 import "./recent.css";
 import calendarIcon from "../../assets/Img/calendar.svg";
 import timeIcon from "../../assets/Img/time.svg";

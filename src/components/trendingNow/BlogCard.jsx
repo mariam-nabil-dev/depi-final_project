@@ -7,37 +7,37 @@ import commentIcon from "../../assets/Img/comment.svg";
 
 const BlogCard = ({ post }) => {
   return (
-    <div className="card-news">
-      <div className="card-image">
-        <button className="label">{post.category}</button>
+    <div className="custom-card-news">
+      <div className="custom-card-image">
+        <button className="custom-label">{post.category}</button>
         <img src={post.image} alt={post.title} />
       </div>
-      <div className="card-body">
-        <div className="card-info">
-          <div className="card-meta">
-            <span className="details">
-              <span className="icon">
+      <div className="custom-card-body">
+        <div className="custom-card-info">
+          <div className="custom-card-meta">
+            <span className="custom-details">
+              <span className="custom-icon">
                 <img src={calendarIcon} alt="Calendar" />
               </span>
               {post.date}
             </span>
             <span>
-              <span className="icon">
+              <span className="custom-icon">
                 <img src={timeIcon} alt="Time" />
               </span>
               {post.readTime} mins
             </span>
             <span>
-              <span className="icon">
+              <span className="custom-icon">
                 <img src={commentIcon} alt="Comments" />
               </span>
               {post.comments} comments
             </span>
           </div>
-          <h3 className="card-title">
+          <h3 className="custom-card-title">
             <a href="#">{post.title}</a>
           </h3>
-          <div className="card-author">
+          <div className="custom-card-author">
             <img src={post.author.avatar} alt={post.author.name} />
             <p>{post.author.name}</p>
           </div>
