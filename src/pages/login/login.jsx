@@ -93,12 +93,12 @@ const Login = () => {
 
             <div className="d-flex text-center justify-content-center align-items-center">
               <Col>
-                <a
-                  href="#"
+                <button
+                  type="submit"
                   className="text-decoration-none btn btn-fill align-self-center"
                 >
                   Login
-                </a>
+                </button>
               </Col>
               <Col>
                 <a href="#" className="text-decoration-none btn btn-outline">
